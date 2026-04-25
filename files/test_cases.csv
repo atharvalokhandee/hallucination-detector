@@ -1,0 +1,21 @@
+id,text,expected_verdict,category,notes
+1,"Albert Einstein was born on March 14, 1879, in Ulm, Germany.",supported,biography,Well-documented historical fact
+2,"The Great Wall of China is visible from space with the naked eye.",contradicted,geography,Common myth — not visible from space
+3,"Water boils at 100 degrees Celsius at standard atmospheric pressure.",supported,science,Basic chemistry fact
+4,"Napoleon Bonaparte was extremely tall for his time, standing around 5 feet 7 inches.",supported,biography,The 'short Napoleon' is a myth — he was average height
+5,"Neil Armstrong was the first human to walk on the Moon in 1969.",supported,history,Apollo 11 mission
+6,"Shakespeare wrote the play 'The Dark Knight Rises'.",contradicted,literature,That is a Christopher Nolan film not a Shakespeare play
+7,"The speed of light in a vacuum is approximately 299,792 kilometers per second.",supported,physics,Established physical constant
+8,"Cleopatra lived closer in time to the Moon landing than to the construction of the Great Pyramid.",supported,history,Counterintuitive but verified — pyramids ~2560 BC, Cleopatra ~30 BC
+9,"The human body has 206 bones in adulthood.",supported,biology,Standard anatomical fact
+10,"Abraham Lincoln invented the telephone.",contradicted,history,Alexander Graham Bell invented the telephone
+11,"Python was created by Guido van Rossum and first released in 1991.",supported,technology,Documented fact
+12,"The Eiffel Tower was built for the 1900 World's Fair.",contradicted,history,It was built for the 1889 World's Fair
+13,"Mount Everest is the tallest mountain on Earth measured from sea level.",supported,geography,Agreed standard — 8,848.86 m
+14,"The Amazon River is the longest river in the world.",contradicted,geography,The Nile is generally considered longest (debated but Amazon is not consensus longest)
+15,"DNA carries genetic information in living organisms.",supported,biology,Foundational molecular biology
+16,"Thomas Edison invented the light bulb entirely on his own with no prior work by others.",contradicted,history,Joseph Swan and others made significant prior contributions
+17,"The first iPhone was released in 2007.",supported,technology,Announced Jan 2007, released June 2007
+18,"Marie Curie won two Nobel Prizes, one in Physics and one in Chemistry.",supported,biography,1903 Physics and 1911 Chemistry
+19,"The Roman Empire fell in 476 AD.",supported,history,Traditional date for fall of Western Roman Empire
+20,"George Washington was the second President of the United States.",contradicted,history,He was the first President — John Adams was second

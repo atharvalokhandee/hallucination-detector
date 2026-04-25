@@ -1,0 +1,39 @@
+# Secrets — NEVER push these
+.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Evaluation output (generated, not source)
+eval/results.csv
+
+# spaCy downloaded models (large binary files)
+en_core_web_sm/
+
+# pytest cache
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Streamlit local config
+.streamlit/secrets.toml
