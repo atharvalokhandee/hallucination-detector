@@ -1,0 +1,16 @@
+id,text,expected_verdict
+1,Albert Einstein was born in Germany in 1879.,supported
+2,The Great Wall of China is visible from space with the naked eye.,contradicted
+3,Water boils at 100 degrees Celsius at standard atmospheric pressure.,supported
+4,Neil Armstrong was the first human to walk on the Moon in 1969.,supported
+5,Shakespeare wrote the play The Dark Knight Rises.,contradicted
+6,The speed of light in a vacuum is approximately 299792 kilometers per second.,supported
+7,The human body has 206 bones in adulthood.,supported
+8,Abraham Lincoln invented the telephone.,contradicted
+9,Python was created by Guido van Rossum and first released in 1991.,supported
+10,The Eiffel Tower was built for the 1900 World's Fair.,contradicted
+11,Marie Curie won two Nobel Prizes one in Physics and one in Chemistry.,supported
+12,The first iPhone was released in 2007.,supported
+13,George Washington was the second President of the United States.,contradicted
+14,DNA carries genetic information in living organisms.,supported
+15,Thomas Edison invented the light bulb entirely on his own with no prior work by others.,contradicted

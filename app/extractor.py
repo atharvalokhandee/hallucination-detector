@@ -20,22 +20,23 @@ nlp = spacy.load("en_core_web_sm")
 
 EXTRACTION_PROMPT = """You are a precise fact-checking assistant.
 
-Given a sentence and its context (the full paragraph), extract all atomic factual claims.
+Given a sentence and its context, extract all atomic factual claims.
+
+IMPORTANT RULES:
+- Classify based on the STRUCTURE of the claim, NOT whether you think it is true or false
+- Any sentence that asserts a fact about the world — even if it sounds wrong — is "factual"
+- Only classify as "opinion" if it uses opinion words like "best", "worst", "beautiful", "should"
+- Only classify as "non-verifiable" if it is a greeting, question, or purely subjective feeling
+- "The Great Wall is visible from space" → factual (it makes a verifiable claim)
+- "Shakespeare wrote The Dark Knight Rises" → factual (it makes a verifiable claim)
+- "Einstein was a great man" → opinion
 
 Each claim must be:
-- A single, standalone verifiable fact
-- A complete sentence with NO pronouns — replace all pronouns (he, she, it, they) with the actual subject name from context
-- Classified as: "factual", "opinion", or "non-verifiable"
+- A single standalone verifiable assertion
+- Written with NO pronouns — replace he/she/it/they with the actual subject from context
+- Classified strictly by structure, not by whether it seems true
 
-Respond ONLY with a JSON array. No explanation, no markdown, no extra text.
-
-Example:
-Context: "Einstein was a physicist. He was born in 1879."
-Sentence: "He was born in 1879."
-Output:
-[
-  {{"text": "Albert Einstein was born in 1879.", "claim_type": "factual"}}
-]
+Respond ONLY with a JSON array. No explanation, no markdown.
 
 Context: "{context}"
 Sentence to analyse: "{sentence}"
